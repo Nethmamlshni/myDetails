@@ -52,7 +52,7 @@ const Homepage = () => {
 
       {/* Footer */}
       <footer className="absolute bottom-4 w-full text-center text-black font-serif">
-        Made by Nethma Malshani.
+        Made by 🤍 Nethma Malshani.
       </footer>
     </div>
   );

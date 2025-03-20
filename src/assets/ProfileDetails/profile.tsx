@@ -5,12 +5,13 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    title: "Wildlife-Circle USJP",
+    title: "Saloon Yapa",
     description:
       "The Wildlife-Circle USJP is a dynamic web application developed for the Wildlife Circle at the University of Sri Jayewardenepura. The application provides a range of features including user authentication, product and order management, blog viewing, a gallery, and a unique 3D forest view.",
-    image: "/wildlife-circle.png", // Replace with actual image path
-    techStack: ["ReactJS", "HTML5", "CSS3", "JavaScript", "TailwindCSS", "Laravel", "MySQL"],
-    githubLink: "https://github.com/your-repo",
+    image: "public/Screenshot 2025-03-19 at 19.33.58.png", // Replace with actual image path
+    techStack: ["ReactJS", "HTML5", "CSS3", "JavaScript", "TailwindCSS", "MySQL"],
+    githubLink: "https://github.com/Nethmamlshni/saloon_backend.git",
+    githubLink2:"https://github.com/Nethmamlshni/Saloon.git",
   },
   {
     id: 2,
@@ -19,7 +20,7 @@ const projects = [
       "Portfolio is a sleek and modern showcase of my projects and achievements, developed using React, Express.js, MongoDB, TailwindCSS, CSS, HTML, JavaScript, and TypeScript. This dynamic web application effectively highlights my skills, experiences, and accomplishments, providing an aesthetically pleasing and responsive interface for users to explore my work.",
     image: "public/Screenshot 2025-03-19 at 19.19.26.png", // Replace with actual image path
     techStack: ["ReactJS", "HTML5", "CSS3", "JavaScript", "TailwindCSS", "EmailJS"],
-    githubLink: "https://github.com/your-repo",
+    githubLink: "https://github.com/Nethmamlshni/myDetails.git",
   },
   {
     id: 3,
@@ -32,19 +33,20 @@ const projects = [
   },
   {
     id: 3,
-    title: "InfinitraX",
+    title: "Hotel Sara",
     description:
-      "For our Third Year Advanced Programming Techniques Group Project, we developed an Inventory Management System called InfinitraX. It supports efficient control of inventory, preventing stock outs, optimizing stock levels, and streamlining overall supply chain processes.",
-    image: "/infinitrax.png", // Replace with actual image path
-    techStack: ["ReactJS", "HTML5", "CSS3", "JavaScript", "Bootstrap", "Python", "Django", "Django-Rest-Framework"],
-    githubLink: "https://github.com/your-repo",
+      "Hotel Sara is a luxurious and modern hotel offering a seamless booking experience through our intuitive web application. Built using React, Express.js, TailwindCSS, HTML, and JavaScript, this platform allows users to easily browse and book rooms at Hotel Sara from the comfort of their homes. With TailwindCSS for a stylish and responsive design, React for dynamic user interaction, and Express.js managing backend services to ensure smooth transactions, users can effortlessly explore available rooms and make secure bookings.",
+    image: "", 
+    techStack: ["ReactJS", "HTML5", "CSS3", "JavaScript",  "TailwindCSS", "Express.js", "MongoDB"],
+    githubLink: "https://github.com/Nethmamlshni/FrontEnd.git",
+    githubLink2:"https://github.com/Nethmamlshni/Traning-01.git",
   },
 ];
 
 function Profile() {
   return (
     <>
-    <div className="relative w-full h-400">
+    <div className="relative w-full h-500">
       {/* Background Video */}
       <BackgroundVideo />
 
@@ -103,14 +105,25 @@ function Profile() {
 
                 {/* GitHub Button */}
                 <a
-                  href={project.githubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-4 inline-block bg-gray-900 text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-gray-700 transition"
-                >
-                  VIEW ON GITHUB
+                   href={project.githubLink}
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="mt-4 inline-block bg-gray-900 text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-gray-700 transition"
+                 >
+                FRONTEND GITHUB
                 </a>
-              </motion.div>
+
+              {project.githubLink2 && (
+              <a
+                   href={project.githubLink2}
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="mt-4 inline-block bg-gray-900 text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-gray-700 transition"
+               >
+              BACKEND GITHUB 
+               </a>
+          )}
+            </motion.div>
             ))}
           </div>
         </section>
