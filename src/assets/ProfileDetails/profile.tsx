@@ -8,7 +8,7 @@ const projects = [
     title: "Saloon Yapa",
     description:
       "The Wildlife-Circle USJP is a dynamic web application developed for the Wildlife Circle at the University of Sri Jayewardenepura. The application provides a range of features including user authentication, product and order management, blog viewing, a gallery, and a unique 3D forest view.",
-    image: "public/Screenshot 2025-03-19 at 19.33.58.png", // Replace with actual image path
+    image: "/Screenshot 2025-03-19 at 19.33.58.png", 
     techStack: ["ReactJS", "HTML5", "CSS3", "JavaScript", "TailwindCSS", "MySQL"],
     githubLink: "https://github.com/Nethmamlshni/saloon_backend.git",
     githubLink2:"https://github.com/Nethmamlshni/Saloon.git",
@@ -18,7 +18,7 @@ const projects = [
     title: "Portfolio",
     description:
       "Portfolio is a sleek and modern showcase of my projects and achievements, developed using React, Express.js, MongoDB, TailwindCSS, CSS, HTML, JavaScript, and TypeScript. This dynamic web application effectively highlights my skills, experiences, and accomplishments, providing an aesthetically pleasing and responsive interface for users to explore my work.",
-    image: "public/Screenshot 2025-03-19 at 19.19.26.png", // Replace with actual image path
+    image: "/Screenshot 2025-03-19 at 19.19.26.png", 
     techStack: ["ReactJS", "HTML5", "CSS3", "JavaScript", "TailwindCSS", "EmailJS"],
     githubLink: "https://github.com/Nethmamlshni/myDetails.git",
   },
@@ -27,7 +27,7 @@ const projects = [
     title: "PixelPerfect",
     description:
       "For our photography hiring platform, we developed Pixel Perfect, a seamless and user-friendly web application that connects photographers with clients. This platform allows users to browse portfolios, book photography sessions, and manage their projects efficiently, ensuring a smooth and professional experience for both photographers and clients.",
-    image: "public/Screenshot 2024-11-23 at 18.50.10.png", 
+    image: "/Screenshot 2024-11-23 at 18.50.10.png", 
     techStack: ["PHP", "HTML5", "CSS3", "JavaScript", "MySQL"],
     githubLink: "https://github.com/Nethmamlshni/PixelPerfect-web-side.git",
   },
@@ -36,7 +36,7 @@ const projects = [
     title: "Hotel Sara",
     description:
       "Hotel Sara is a luxurious and modern hotel offering a seamless booking experience through our intuitive web application. Built using React, Express.js, TailwindCSS, HTML, and JavaScript, this platform allows users to easily browse and book rooms at Hotel Sara from the comfort of their homes. With TailwindCSS for a stylish and responsive design, React for dynamic user interaction, and Express.js managing backend services to ensure smooth transactions, users can effortlessly explore available rooms and make secure bookings.",
-    image: "", 
+    image: "" , 
     techStack: ["ReactJS", "HTML5", "CSS3", "JavaScript",  "TailwindCSS", "Express.js", "MongoDB"],
     githubLink: "https://github.com/Nethmamlshni/FrontEnd.git",
     githubLink2:"https://github.com/Nethmamlshni/Traning-01.git",
