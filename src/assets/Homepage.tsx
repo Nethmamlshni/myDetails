@@ -47,12 +47,10 @@ const Homepage = () => {
       </div>
       <div>
       <img
-  src="%PUBLIC_URL%/Screenshot 2025-03-19 at 14.21.14.png"
+  src="/Screenshot 2025-03-19 at 14.21.14.png"
   alt="Profile Picture"
   className="absolute top-80 left-3/4 transform -translate-x-1/2 -translate-y-1/2 w-70 h-80 rounded-2xl"
 />
-
-
       </div>
 
       {/* Footer */}
