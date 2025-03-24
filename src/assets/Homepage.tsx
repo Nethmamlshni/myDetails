@@ -4,7 +4,7 @@ import BackgroundVideo from "./BackgroundVideo";
 
 const Homepage = () => {
   const [text, setText] = useState("");
-  const name = "Hellow I am Nethma Malshani Welcome to my Portfolio !"; 
+  const name = "Hello I am Nethma Malshani Welcome to my Portfolio !"; 
   const typingSpeed = 150; 
   const delayAfterComplete = 1000; 
 

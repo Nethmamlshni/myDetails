@@ -10,7 +10,7 @@ const projects = [
       "The Wildlife-Circle USJP is a dynamic web application developed for the Wildlife Circle at the University of Sri Jayewardenepura. The application provides a range of features including user authentication, product and order management, blog viewing, a gallery, and a unique 3D forest view.",
     image: "/Screenshot 2025-03-19 at 19.33.58.png", 
     techStack: ["ReactJS", "HTML5", "CSS3", "JavaScript", "TailwindCSS", "MySQL"],
-    githubLink: "https://github.com/Nethmamlshni/saloon_backend.git",
+    githubLink: "https://github.com/Nethmamlshni/Saloon_Frontend_New.git",
     githubLink2:"https://github.com/Nethmamlshni/Saloon.git",
   },
   {
