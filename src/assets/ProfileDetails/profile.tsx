@@ -36,7 +36,7 @@ const projects = [
     title: "Hotel Sara",
     description:
       "Hotel Sara is a luxurious and modern hotel offering a seamless booking experience through our intuitive web application. Built using React, Express.js, TailwindCSS, HTML, and JavaScript, this platform allows users to easily browse and book rooms at Hotel Sara from the comfort of their homes. With TailwindCSS for a stylish and responsive design, React for dynamic user interaction, and Express.js managing backend services to ensure smooth transactions, users can effortlessly explore available rooms and make secure bookings.",
-    image: "" , 
+    image: "/Screenshot 2025-03-26 at 15.17.39.png" , 
     techStack: ["ReactJS", "HTML5", "CSS3", "JavaScript",  "TailwindCSS", "Express.js", "MongoDB"],
     githubLink: "https://github.com/Nethmamlshni/FrontEnd.git",
     githubLink2:"https://github.com/Nethmamlshni/Traning-01.git",
